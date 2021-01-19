@@ -14,8 +14,11 @@ body{
     background-attachment: fixed;
 }
 
-.text-3{
-        font-size: 35px;
+.text-3 span{
+    font-size: 40px;
+    margin: 5px 0;
+    color: crimson;
+    font-weight: 500;
 }
 
 .user-box{
