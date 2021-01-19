@@ -15,10 +15,10 @@ body{
 }
 
 .text-3 span{
-    font-size: 30px;
-    margin: 5px 0;
+/*     font-size: 30px; */
+/*     margin: 5px 0; */
     color: crimson;
-    font-weight: 300;
+/*     font-weight: 300; */
 }
 
 .user-box{
