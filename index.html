@@ -17,7 +17,11 @@
         <div class="user-box">
             <img src="ceo.jfif" alt="">
             <h1>Devanshu Jain</h1>
-            <p>Blogger & Web Developer</p>
+		<div class="text-3">
+			<span class="typing"></span>
+		</div>
+
+<!--             <p>Blogger & Web Developer</p> -->
         </div>
     </div>
     <div class="scroll-btn">
@@ -277,7 +281,16 @@
 
 </section>
 
-
+<script>
+	$(document).ready(function(){
+		var typed = new Typed(".typing-2", {
+        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    	});
+     }
+</script>
 
 <!-- smoooth scroll -->
 <script src="smooth-scroll.js"></script>
