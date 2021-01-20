@@ -46,7 +46,7 @@ body{
 }
 
 .scroll-btn{
-    bottom: 5px;
+    bottom: 20px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
